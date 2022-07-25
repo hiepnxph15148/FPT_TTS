@@ -1,0 +1,725 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+   
+  <script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>
+  <script src="https://cdn.datatables.net/1.10.20/js/dataTables.bootstrap4.min.js"></script>
+  <script src="https://cdn.datatables.net/1.10.20/css/dataTables.bootstrap4.min.css"></script>
+ 
+  <script>
+    $(document).ready(function() {
+     
+    $('#example').dataTable({}); // dòng này để nhúng bảng biểu thành dạng bảng được phân trang
+         
+    } ); 
+  </script>   
+</head>
+
+<body>
+    <div class="header">
+        <nav>
+        <div class="hotline">
+            <div class="container">
+                <div class="hotline2">
+                    <h4>HOTLINE : 1900 6446 (MÁY LẺ: 6166)/1900 6446 (MÁY LẺ: 9126)</h4>
+                    <img src="http://www.fpts.com.vn/Public/images/NewPublic/img/icon/icon-EN.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="logo">
+            <div class="container">
+                <div class="tt1">
+                    <img src="http://www.fpts.com.vn/Public/images/fpts-Logo/logo_ngang.png" alt="">
+                    <span class="title">Nơi bạn đặt niềm tin</span>
+                    <div></div>
+                </div>
+            </div>
+        </div>
+        <div class="menu">
+            <div class="container">
+                <ul class="menu-mian">
+                    <li><a href="">TRANG CHỦ</a></li>
+                    <li><a class="tt" href="">CƠ HỘI NGHỀ NGHIỆP</a></li>
+                    <li><a class="tt" href="">TẠI SAO CHỌN FPTS</a></li>
+                    <li><a class="tt" href="">CHƯƠNG TRÌNH THỰC TẬP SINH</a></li>
+                    <li><a class="tt" href="">TALENT NETWORK</a></li>
+                    <li><a class="tt" href="">HỎI ĐÁP</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+        <div class="banner">
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="http://www.fpts.com.vn/media/3279/banner-4.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>First slide label</h5>
+                            <p>Some representative placeholder content for the first slide.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="http://www.fpts.com.vn/media/3361/banner-6.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Second slide label</h5>
+                            <p>Some representative placeholder content for the second slide.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="http://www.fpts.com.vn/media/6688/bia-fb-demo-3.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Third slide label</h5>
+                            <p>Some representative placeholder content for the third slide.</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </div>
+    
+    <div class="Vieclamtimkiem">
+        <div class="PageDetai">
+            <div class="container">
+                <div class="main">
+                <div class="ttsp">
+                <div class="header">
+                    <span class="tieude"> Thực tập sinh lập trình viên Backend</span>
+                </div>
+                <div class="body">
+                    <p class="title-body">Công ty Cổ phần Chứng khoán FPT (FPTS) tuyển dụng Thực tập lập Thực tập sinh
+                        lập trình viên làm việc tại trụ sở chính Hà Nội</p>
+
+                    <span class="font-bold">* Mô tả công việc:</span>
+
+                    <ul>
+                        <li> Được đào tạo để tham gia nghiên cứu và phát triển sản phẩm backend.</li>
+                        <li>Tham gia khóa đào tạo chuyên sâu về lập trình .Net, cơ sở dữ liệu, nghiệp vụ giao dịch chứng
+                            khoán…</li>
+                    </ul>
+                    <span class="font-bold">* Quá trình tuyển dụng:</span>
+                    <ul>
+                        <li>Thu thập và sơ loại hồ sơ ứng viên;</li>
+                        <li>Phỏng vấn với trưởng bộ phận</li>
+                        <li>Đánh giá và tiếp nhận ứng viên.</li>
+                    </ul>
+                    <span class="font-bold">* Yêu cầu:</span>
+                    <ul>
+                        <li>Sinh viên năm cuối khối ngành IT phần mềm: Công nghệ thông tin, Toán tin, lập trình viên
+                            hoặc tương đương</li>
+                        <li>Có hiểu biết về lập trình hướng đối tượng; có kinh nghiệm lập trình .NET; có hiểu biết về
+                            database, microservices là một lợi thế.</li>
+                        <li>Có khả năng đọc hiểu tài liệu chuyên ngành bằng tiếng Anh</li>
+                        <li>Tính tình cẩn thận, chăm chỉ, chịu khó học hỏi</li>
+                        <li>Yêu thích và mong muốn theo đuổi nghề lập trình; chủ động, đam mê công việc, sẵn sàng chấp
+                            nhận thách thức</li>
+                    </ul>
+                    <span class="font-bold">* Quyền lợi:</span>
+                    <ul>
+                        <li>Ứng viên sẽ có cơ hội học tập và làm việc trong môi trường thực tế, chuyên nghiệp, năng
+                            động;</li>
+                        <li>Được hướng dẫn, huấn luyện bởi đội ngũ chuyên gia nhiều kinh nghiệm;</li>
+                        <li>Ứng viên được trang bị đầy đủ kỹ năng và kiến thức chuyên sâu để làm việc sau mỗi khóa đào
+                            tạo;</li>
+                        <li>Ứng viên sẽ có cơ hội trở thành nhân viên Chính thức với quyền lợi đãi ngộ tương xứng với
+                            năng lực và kết quả hoàn thành công việc. </li>
+                    </ul>
+                </div>
+                <div class="footer">
+                    <div class="chiase ">
+                        <span>Chia sẻ</span>
+                        <a href="https://www.facebook.com/sharer/sharer.php?u=http://fpts.com.vn/co-hoi-nghe-nghiep/chi-tiet/Thuc_tap_lap_Thuc_tap_sinh_lap_trinh_vien_42F4B63010938150A47BCAD41E5E0258"
+                            class="fa fa-facebook" id="jobfb"></a>
+                        <a href="https://twitter.com/home?status=http://fpts.com.vn/co-hoi-nghe-nghiep/chi-tiet/Thuc_tap_lap_Thuc_tap_sinh_lap_trinh_vien_42F4B63010938150A47BCAD41E5E0258"
+                            class="fa fa-twitter" id="jobtwitter"></a>
+                        <a href="https://plus.google.com/share?url=http://fpts.com.vn/co-hoi-nghe-nghiep/chi-tiet/Thuc_tap_lap_Thuc_tap_sinh_lap_trinh_vien_42F4B63010938150A47BCAD41E5E0258"
+                            class="fa fa-google-plus" id="JobGoole"></a>
+                        <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=&amp;title=&amp;summary=&amp;source=http://fpts.com.vn/co-hoi-nghe-nghiep/chi-tiet/Thuc_tap_lap_Thuc_tap_sinh_lap_trinh_vien_42F4B63010938150A47BCAD41E5E0258"
+                            class="fa fa-linkedin" id="joblinkedin"></a>
+                    </div>
+                    <div class="nopcv">
+                        <a class="NopCv" href="/co-hoi-nghe-nghiep/nop-cv/?id=621" target="_blank">Nộp cv trực tuyến</a>
+                        <a class="Cvmail" id="nopCvQuaEmail" data-toggle="modal" data-target="#myModal">Nộp CV qua
+                            email</a>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+            <div class="search">
+                <h3>Vị trí tuyển dụng</h3>
+                <div class="button-serach">
+                    <button class="xoaloc">Xóa lọc</button>
+                    <button class="timkiem">Tìm kiếm</button>
+                </div>
+                <h5>Ngành nghề</h5>
+                <ul>
+                <li>
+                    <label class="">
+                        <span>Tư vấn đầu tư</span>
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                    </label>
+                </li>
+                <li>
+                    <label class="">
+                        <span>Tư vấn tài chính doanh nghiệp</span>
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                    </label>
+                </li>
+                <li>
+                    <label class="">
+                        <span>Phân tích đầu tư</span>
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                    </label>
+                </li>
+                <li>
+                    <label class="">
+                        <span>Công nghệ thông tin</span>
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                    </label>
+                </li>
+                <li>
+                    <label class="">
+                        <span>Khối chức năng</span>
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                    </label>
+                </li>
+            </ul>
+            <h5>Địa điểm làm việc</h5>
+            <ul>
+                <li>
+                    <label class="">
+                        <span>Hà Nội</span>
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                    </label>
+                </li>
+                <li>
+                    <label class="">
+                        <span>Đà Nẵng</span>
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                    </label>
+                </li>
+                <li>
+                    <label class="">
+                        <span>Hồ Chí Minh</span>
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                    </label>
+                </li>
+            </ul>
+            <h5>Loại hình công việc</h5>
+            <ul>
+                <li>
+                    <label class="">
+                        <span>Chính thức</span>
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                    </label>
+                </li>
+                <li>
+                    <label class="">
+                        <span>Cộng tác viên</span>
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                    </label>
+                </li>
+                <li>
+                    <label class="">
+                        <span>Thực tập sinh tiềm năng</span>
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                    </label>
+                </li>
+                <li>
+                    <label class="">
+                        <span>Thực tập sinh ngắn hạn</span>
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                    </label>
+                </li>
+                <li>
+                    <label class="">
+                        <span>Khác</span>
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                    </label>
+                </li>
+            </ul>
+            </div>
+        </div>
+            </div>
+        </div>
+    </div>
+    <div class="job-serch">
+        <div class="ViecLamLienQuan" style="background-color:#fff">
+            <div class="container fix-container">
+                <div class="col-md-12 padding-left-0">
+                    <p class="title top-title">Việc làm tìm kiếm</p>
+                    <div class="container">
+                        <table id="example" class="table table-striped table-bordered" style="width:100%">
+                              <thead>
+                                  <tr>
+                                      <th>ID</th>
+                                      <th>Vị trí tuyển dụng</th>
+                                      <th>Ngành nghề</th>
+                                      <th>Địa điểm</th>
+                                      <th>Số lượng</th>
+                                      <th>Hạn nộp hồ sơ</th>
+                                  </tr>
+                              </thead>
+                              <tbody>
+                               
+                                <tr>
+                                    <td>2</td>
+                                    <td>Thực tập sinh lập trình viên Backend</td>
+                                    <td>Công nghệ thông tin</td>
+                                    <td>Hồ Chí Minh</td>
+                                    <td>50</td>
+                                    <td>31/7/2022</td>
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td>Thực tập sinh Chương trình đào tạo Chuyên viên tư vấn đầu tư 2022</td>
+                                    <td>Tư vấn đầu tư</td>
+                                    <td>Hà Nội</td>
+                                    <td>5</td>
+                                    <td>31/7/2022</td>
+                                </tr>
+                                <tr>
+                                    <td>4</td>
+                                    <td>Thực tập sinh Chương trình đào tạo Chuyên viên tư vấn đầu tư 2022</td>
+                                    <td>Tư vấn đầu tư</td>
+                                    <td>Hồ Chí Minh</td>
+                                    <td>50</td>
+                                    <td>31/7/2022</td>
+                                </tr>
+                                <tr>
+                                    <td>5</td>
+                                    <td>Thực tập sinh Chương trình đào tạo Chuyên viên tư vấn đầu tư 2022</td>
+                                    <td>Tư vấn đầu tư</td>
+                                    <td>Hồ Chí Minh</td>
+                                    <td>50</td>
+                                    <td>31/7/2022</td>
+                                </tr>
+                                <tr>
+                                    <td>6</td>
+                                    <td>Thực tập sinh Chương trình đào tạo Chuyên viên tư vấn đầu tư 2022</td>
+                                    <td>Tư vấn đầu tư</td>
+                                    <td>Hồ Chí Minh</td>
+                                    <td>50</td>
+                                    <td>31/7/2022</td>
+                                </tr>
+                                <tr>
+                                    <td>7</td>
+                                    <td>Thực tập sinh Chương trình đào tạo Chuyên viên tư vấn đầu tư 2022</td>
+                                    <td>Tư vấn đầu tư</td>
+                                    <td>Hồ Chí Minh</td>
+                                    <td>50</td>
+                                    <td>31/7/2022</td>
+                                </tr>
+                                <tr>
+                                    <td>8</td>
+                                    <td>Thực tập sinh Chương trình đào tạo Chuyên viên tư vấn đầu tư 2022</td>
+                                    <td>Tư vấn đầu tư</td>
+                                    <td>Hồ Chí Minh</td>
+                                    <td>50</td>
+                                    <td>31/7/2022</td>
+                                </tr>
+                                <tr>
+                                    <td>9</td>
+                                    <td>Thực tập sinh Chương trình đào tạo Chuyên viên tư vấn đầu tư 2022</td>
+                                    <td>Tư vấn đầu tư</td>
+                                    <td>Hồ Chí Minh</td>
+                                    <td>50</td>
+                                    <td>31/7/2022</td>
+                                </tr>
+                                <tr>
+                                    <td>10</td>
+                                    <td>Thực tập sinh Chương trình đào tạo Chuyên viên tư vấn đầu tư 2022</td>
+                                    <td>Tư vấn đầu tư</td>
+                                    <td>Hồ Chí Minh</td>
+                                    <td>50</td>
+                                    <td>31/7/2022</td>
+                                </tr>
+                                <tr>
+                                    <td>11</td>
+                                    <td>Thực tập sinh Chương trình đào tạo Chuyên viên tư vấn đầu tư 2022</td>
+                                    <td>Tư vấn đầu tư</td>
+                                    <td>Hồ Chí Minh</td>
+                                    <td>50</td>
+                                    <td>31/7/2022</td>
+                                </tr>
+                                <tr>
+                                    <td>12</td>
+                                    <td>Thực tập sinh Chương trình đào tạo Chuyên viên tư vấn đầu tư 2022</td>
+                                    <td>Tư vấn đầu tư</td>
+                                    <td>Hồ Chí Minh</td>
+                                    <td>50</td>
+                                    <td>31/7/2022</td>
+                                </tr>
+                                <tr>
+                                    <td>13</td>
+                                    <td>Thực tập sinh Chương trình đào tạo Chuyên viên tư vấn đầu tư 2022</td>
+                                    <td>Tư vấn đầu tư</td>
+                                    <td>Hồ Chí Minh</td>
+                                    <td>50</td>
+                                    <td>31/7/2022</td>
+                                </tr>
+
+                                <tr>
+                                    <td>14</td>
+                                    <td>Thực tập sinh Chương trình đào tạo Chuyên viên tư vấn đầu tư 2022</td>
+                                    <td>Tư vấn đầu tư</td>
+                                    <td>Hồ Chí Minh</td>
+                                    <td>50</td>
+                                    <td>31/7/2022</td>
+                                </tr>
+                                <tr>
+                                    <td>15</td>
+                                    <td>Thực tập sinh Chương trình đào tạo Chuyên viên tư vấn đầu tư 2022</td>
+                                    <td>Tư vấn đầu tư</td>
+                                    <td>Hồ Chí Minh</td>
+                                    <td>50</td>
+                                    <td>31/7/2022</td>
+                                </tr>
+                        
+                               
+                                    <td>1</td>
+                                    <td>Thực tập sinh Chương trình đào tạo Chuyên viên tư vấn đầu tư 2022</td>
+                                    <td>Tư vấn đầu tư</td>
+                                    <td>Hồ Chí Minh</td>
+                                    <td>50</td>
+                                    <td>31/7/2022</td>
+                                </tr>
+                                <tr>
+                                    <td>1</td>
+                                    <td>Thực tập sinh Chương trình đào tạo Chuyên viên tư vấn đầu tư 2022</td>
+                                    <td>Tư vấn đầu tư</td>
+                                    <td>Hồ Chí Minh</td>
+                                    <td>50</td>
+                                    <td>31/7/2022</td>
+                                </tr>
+                                
+                        
+                                <tr>
+                                    <td>20</td>
+                                    <td>Thực tập sinh Chương trình đào tạo Chuyên viên tư vấn đầu tư 2022</td>
+                                    <td>Tư vấn đầu tư</td>
+                                    <td>Hồ Chí Minh</td>
+                                    <td>50</td>
+                                    <td>31/7/2022</td>
+                                </tr>
+                                <tr>
+                                    <td>1</td>
+                                    <td>Thực tập sinh Chương trình đào tạo Chuyên viên tư vấn đầu tư 2022</td>
+                                    <td>Tư vấn đầu tư</td>
+                                    <td>Hồ Chí Minh</td>
+                                    <td>50</td>
+                                    <td>31/7/2022</td>
+                                </tr>
+                                <tr>
+                                    <td>1</td>
+                                    <td>Thực tập sinh Chương trình đào tạo Chuyên viên tư vấn đầu tư 2022</td>
+                                    <td>Tư vấn đầu tư</td>
+                                    <td>Hồ Chí Minh</td>
+                                    <td>50</td>
+                                    <td>31/7/2022</td>
+                                </tr>
+                                <tr>
+                                    <td>60</td>
+                                    <td>Thực tập sinh Chương trình đào tạo Chuyên viên tư vấn đầu tư 2022</td>
+                                    <td>Tư vấn đầu tư</td>
+                                    <td>Hồ Chí Minh</td>
+                                    <td>50</td>
+                                    <td>31/7/2022</td>
+                                </tr>
+                                <tr>
+                                    <td>50</td>
+                                    <td>Thực tập sinh Chương trình đào tạo Chuyên viên tư vấn đầu tư 2022</td>
+                                    <td>Tư vấn đầu tư</td>
+                                    <td>Hồ Chí Minh</td>
+                                    <td>50</td>
+                                    <td>31/7/2022</td>
+                                </tr>
+                              
+                                <tr>
+                                    <td>40</td>
+                                    <td>Thực tập sinh Chương trình đào tạo Chuyên viên tư vấn đầu tư 2022</td>
+                                    <td>Tư vấn đầu tư</td>
+                                    <td>Hồ Chí Minh</td>
+                                    <td>50</td>
+                                    <td>31/7/2022</td>
+                                </tr>
+                                <tr>
+                                    <td>42</td>
+                                    <td>Thực tập sinh Chương trình đào tạo Chuyên viên tư vấn đầu tư 2022</td>
+                                    <td>Tư vấn đầu tư</td>
+                                    <td>Hồ Chí Minh</td>
+                                    <td>50</td>
+                                    <td>31/7/2022</td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>Thực tập sinh Chương trình đào tạo Chuyên viên tư vấn đầu tư 2022</td>
+                                    <td>Tư vấn đầu tư</td>
+                                    <td>Hồ Chí Minh</td>
+                                    <td>50</td>
+                                    <td>31/7/2022</td>
+                                </tr>
+
+                              </tbody>
+                             
+                          </table>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="Job-Highlights">
+        <div class="container">
+            <div class="title">Việc làm nổi bật</div>
+
+            <div class="post">
+                <div class="post1">
+                    <div class="img">
+                        <img src="http://i.fpts.com.vn/FileStore2/Picture/Job/2022/05/Thiet_ke_khong_ten_9_79a33c4c.png"
+                            alt="">
+                    </div>
+                    <div class="title-post1">
+                        <a href="">Thực tập sinh nhân sự</a>
+                    </div>
+                    <div class="title-post-detail">
+                        <table>
+                        <tbody><tr>
+                            <td>Khu vực ứng tuyển</td>
+                            <td class="map">Hà Nội</td>
+                        </tr>
+                        <tr>
+                            <td>Hạn nộp hồ sơ</td>
+                            <td class="map">31/07/2022</td>
+                        </tr>
+                        <tr>
+                            <td>Số lượng tuyển</td>
+                            <td class="map">5</td>
+                        </tr>
+                    </tbody>
+                </table>
+                    </div>
+                    <div class="detail-post">
+                        <a href="/co-hoi-nghe-nghiep/chi-tiet/Thuc_tap_sinh_nhan_su_7204B5C0C4AF3050D4CE740DB98ED3C4">Xem chi tiết</a>
+                    </div>
+                </div>
+                <div class="post1">
+                    <div class="img">
+                        <div><img
+                                src="http://i.fpts.com.vn/FileStore2/Picture/Job/2022/06/Thiet_ke_khong_ten_11_0aed413e.png"
+                                alt=""></div>
+                    </div>
+                    <div class="title-post1">
+                        <a href="">Thực tập sinh nhân sự</a>
+                    </div>
+                    <div class="title-post-detail">
+                        <table>
+                        <tbody><tr>
+                            <td>Khu vực ứng tuyển</td>
+                            <td class="map">Hà Nội</td>
+                        </tr>
+                        <tr>
+                            <td>Hạn nộp hồ sơ</td>
+                            <td class="map">31/07/2022</td>
+                        </tr>
+                        <tr>
+                            <td>Số lượng tuyển</td>
+                            <td class="map">5</td>
+                        </tr>
+                    </tbody>
+                </table>
+                    </div>
+                    <div class="detail-post">
+                        <a href="/co-hoi-nghe-nghiep/chi-tiet/Thuc_tap_sinh_nhan_su_7204B5C0C4AF3050D4CE740DB98ED3C4">Xem chi tiết</a>
+                    </div>
+                </div>
+                <div class="post1">
+                    <div class="img">
+                        <div><img
+                                src="http://i.fpts.com.vn/FileStore2/Picture/Job/2022/05/CHUONG_TRINH_DAO_TAO_CHUYEN_VIEN_TU_VAN_DAU_TU_2022_300_%C3%97_168_px_1_1229f36d.png"
+                                alt=""></div>
+                    </div>
+                    <div class="title-post1">
+                        <a href="">Thực tập sinh nhân sự</a>
+                    </div>
+                    <div class="title-post-detail">
+                        <table>
+                        <tbody><tr>
+                            <td>Khu vực ứng tuyển</td>
+                            <td class="map">Hà Nội</td>
+                        </tr>
+                        <tr>
+                            <td>Hạn nộp hồ sơ</td>
+                            <td class="map">31/07/2022</td>
+                        </tr>
+                        <tr>
+                            <td>Số lượng tuyển</td>
+                            <td class="map">5</td>
+                        </tr>
+                    </tbody>
+                </table>
+                    </div>
+                    <div class="detail-post">
+                        <a href="/co-hoi-nghe-nghiep/chi-tiet/Thuc_tap_sinh_nhan_su_7204B5C0C4AF3050D4CE740DB98ED3C4">Xem chi tiết</a>
+                    </div>
+                </div>
+                <div class="post1">
+                    <div class="img">
+                        <div><img
+                                src="http://i.fpts.com.vn/FileStore2/Picture/Job/2022/05/Thiet_ke_khong_ten_9_79a33c4c.png"
+                                alt=""></div>
+                    </div>
+                    <div class="title-post1">
+                        <a href="">Thực tập sinh nhân sự</a>
+                    </div>
+                    <div class="title-post-detail">
+                        <table>
+                        <tbody><tr>
+                            <td>Khu vực ứng tuyển</td>
+                            <td class="map">Hà Nội</td>
+                        </tr>
+                        <tr>
+                            <td>Hạn nộp hồ sơ</td>
+                            <td class="map">31/07/2022</td>
+                        </tr>
+                        <tr>
+                            <td>Số lượng tuyển</td>
+                            <td class="map">5</td>
+                        </tr>
+                    </tbody>
+                </table>
+                    </div>
+                    <div class="detail-post">
+                        <a href="/co-hoi-nghe-nghiep/chi-tiet/Thuc_tap_sinh_nhan_su_7204B5C0C4AF3050D4CE740DB98ED3C4">Xem chi tiết</a>
+                    </div>
+                </div>
+                <div class="post1">
+                    <div class="img">
+                        <div><img
+                                src="http://i.fpts.com.vn/FileStore2/Picture/Job/2022/06/Thiet_ke_khong_ten_11_0aed413e.png"
+                                alt=""></div>
+                    </div>
+                    <div class="title-post1">
+                        <a href="">Thực tập sinh nhân sự</a>
+                    </div>
+                    <div class="title-post-detail">
+                        <table>
+                        <tbody><tr>
+                            <td>Khu vực ứng tuyển</td>
+                            <td class="map">Hà Nội</td>
+                        </tr>
+                        <tr>
+                            <td>Hạn nộp hồ sơ</td>
+                            <td class="map">31/07/2022</td>
+                        </tr>
+                        <tr>
+                            <td>Số lượng tuyển</td>
+                            <td class="map">5</td>
+                        </tr>
+                    </tbody>
+                </table>
+                    </div>
+                    <div class="detail-post">
+                        <a href="/co-hoi-nghe-nghiep/chi-tiet/Thuc_tap_sinh_nhan_su_7204B5C0C4AF3050D4CE740DB98ED3C4">Xem chi tiết</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <div class="LienKet">
+        <div class="center-lienket">
+            <a target="_blank" href="https://facebook.com/bannhansufpts/"></a>
+            <a target="_blank" href="https://www.youtube.com/channel/UC6788ygMxsPlqbT_ESGFnig/featured"></a>
+        </div>
+    </div><br><br><br>
+    <div class="footter">
+        <div class="container">
+            <div class="top">
+                <div class="column">
+                    <ul>
+                        <li class="title">Ban Nhân sự trụ sở chính Hà Nội</li>
+                        <li class="location">Số 52 Lạc Long Quân, phường Bưởi, quận Tây Hồ</li>
+                        <li class="phone">1900 6446 (Máy lẻ: 6166)</li>
+                        <li class="email">bannhansu@fpts.com.vn</li>
+                    </ul>
+                </div>
+                <div class="column">
+                    <ul>
+                        <li class="title">Phòng Nhân sự chi nhánh Hồ Chí Minh</li>
+                        <li class="location">136 - 138 Lê Thị Hồng Gấm, Nguyễn Thái Bình, Quận 1</li>
+                        <li class="phone">1900 6446 (Máy lẻ: 9126)</li>
+                        <li class="email">phongnhansu.hcm@fpts.com.vn</li>
+                    </ul>
+                </div>
+                <div class="column">
+                    <ul>
+                        <li class="title">Phòng Nhân sự chi nhánh Đà Nẵng</li>
+                        <li class="location">Tầng 3, 4 Tòa nhà Tràng Tiền, số 130 Đống Đa, P.Thuận Phước, Q.Hải Châu
+                        </li>
+                        <li class="phone">1900 6446 (Máy lẻ: 7909)&nbsp;</li>
+                        <li class="email">phongnhansu.dn@fpts.com.vn</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="bottom">
+
+            <span>© 2019 Công ty Cổ phần Chứng khoán FPT</span>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

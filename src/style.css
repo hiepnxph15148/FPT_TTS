@@ -1,0 +1,341 @@
+
+.hotline img{
+   width: 30px;
+   height: 20px;
+}
+.hotline h4{
+    font-size: 15px;
+}
+
+.hotline{
+    color: #fff;
+    text-transform: uppercase;
+    background-color: #007db0;
+    border-bottom: 1px solid #7ebeda;
+    padding: 4px 0 3px;
+}
+.hotline2{
+    display: flex;
+    justify-content: space-between;
+}
+.logo img{
+   width: 210px;
+   
+}
+.logo{
+    height: auto;
+    padding-top: 14px;
+    padding-bottom: 10px;
+    padding-left: 14px;
+   
+}
+.tt1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.title{
+    font-weight: 500;
+    font-size: 28px;
+    color: #007db8;
+    font-family: 'Titillium Web',sans-serif;
+}
+.menu-mian{
+    display: flex; 
+    justify-content: space-between;
+    position: relative;
+    background-color: white;
+
+}
+
+.menu-mian li   {
+    list-style: none;
+    
+   
+}
+.tt{
+    border-left: 1px solid #e1e1e1;
+    padding: 10px 17px 9px;
+}
+.menu-mian a {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+.menu-mian a:hover{
+    color: #ae6e37;
+    border-bottom: 2px solid #de6f20;
+    padding-bottom: 4px;
+}
+.menu{
+    padding: 20px 0 20px 0;
+    margin-right: 50px;
+}
+
+.title-post1 a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    padding: 5px 0;
+    color: #024e82;
+    height: 50px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.detail-post a{
+   
+    text-decoration: none;
+    background-color: #024e80;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    color: #fff;
+    padding: 7px;
+    font-size: 15px;
+    border-radius: 0;
+}
+.post{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+    gap: 30px;
+}
+.post .post1{
+    padding: 20px;
+}
+.post1 .img img{
+    width: 100%;
+}
+/* .Job-Highlights{
+    padding: 10px 0 40px 0;
+} */
+.title-Latest{
+    color: #007db7;
+    margin: 0;
+    padding: 3px 0 15px 0;
+    font-size: 25px;
+}
+.Latest-jobs{
+    background-color: #f5f5f5;
+    padding: 20px;
+}
+.table th{
+    color: #007db7
+}
+.table{
+    background-color: white;
+    box-shadow: 1px 1px 2px 3px rgb(224, 223, 223);
+}
+.ulu{
+    padding: 20px;
+    background-color: white;
+}
+.LienKet {
+    float: left;
+    width: 100%;
+    border-top: 1px solid #e6e6e6;
+    border-bottom: 1px solid #e6e6e6;
+    border-left: none;
+    border-right: none;
+}
+.LienKet a:first-child {
+    height: 32px;
+    width: 32px;
+    background-image: url(http://www.fpts.com.vn/Public/images/NewPublic/img/icon/iconFace.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    float: left;
+}
+.LienKet a:last-child {
+    margin-left: 11px;
+    height: 32px;
+    width: 32px;
+    background-image: url(http://www.fpts.com.vn/Public/images/NewPublic/img/icon/iconYoutobe.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    float: left;
+}
+.LienKet .center-lienket {
+    padding: 14px 0 44px 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 9%;
+}
+.column{
+    line-height: 25px;
+    font-family: 'HeLvetical';
+}
+.column ul{
+    list-style: none;
+}
+
+.footter .bottom {
+    background-color: #034f8d;
+    text-align: center;
+    margin-top: 50px;
+    padding: 10px 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+.footter {
+    background: #4d4d4d;
+    padding: 20px 0 0;
+    color: white;
+}
+.top{
+    display: flex;
+}
+.slider {
+    width: 400px;
+    margin: 20px auto;
+    text-align: center;
+    padding: 20px;
+    color: white;
+  }
+  .slider .parent-slide {
+    padding: 15px;
+  }
+  .slider img {
+    display: block;
+    margin: auto;
+  }
+.PageDetai .header {
+    text-align: left;
+    padding: 15px;
+    border-bottom: 1px solid #e6e6e6;
+    background-color: #f1f1f1;
+}
+.PageDetai .header .tieude {
+    color: #007db8;
+    font-size: 25px;
+}
+.font-bold{
+    font-weight: bold;;
+}
+.PageDetai .footer {
+    border-top: 1px solid #e6e6e6;
+    padding: 20px;
+}
+.nopcv{
+    display: flex;
+    justify-content: right;
+}
+.nopcv a{
+    color: #0c78b9;
+    background: #fff;
+    padding: 10px 15px;
+    border-radius: 17px;
+    margin-left: 10px;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: #0c78b9 1px solid;
+    text-decoration: none;
+}
+.NopCv{
+    margin-right: 20px;
+}
+#jobfb{
+    color: #4d76b8;
+}
+#jobtwitter{
+    color: #00c0ff;
+}
+#JobGoole{
+    color: #f55442;
+}
+#joblinkedin{
+    color: #0c7ec4;
+}
+.chiase a{
+    font-size: 20px;
+    text-decoration: none;
+}
+.Vieclamtimkiem{
+    background-color: #f5f5f5;
+}
+.PageDetai{
+    background-color: white;
+    
+}
+.ttsp{
+    box-shadow: 0 0 18px -2px rgb(0 0 0 / 75%);
+    margin-top: 15px;
+    padding: 20px;
+}
+.main{
+    display: flex;
+    width: 100%;
+}
+.search{
+    margin-left: 15px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 18px -2px rgb(0 0 0 / 75%);
+    margin-top: 15px;
+    font-size: 15px;
+}
+.xoaloc{
+    cursor: pointer;
+    width: 50%;
+    background: #007db7;
+    color: #fff;
+    padding: 5px 5px 5px 10px;
+    display: block;
+}
+.timkiem{
+    cursor: pointer;
+    width: 50%;
+    background: #007db7;
+    color: #fff;
+    padding: 5px 5px 5px 10px;
+    display: block;
+    margin-left: 2px;
+}
+.button-serach{
+    display: flex;
+    padding:2px;
+   
+}
+.title-post-detail table {
+    font-size: 13px;
+    margin: 23px 0 20px !important;
+}
+.map{
+    padding-left: 20px;
+   
+}
+.slick-slider button{
+    display: none;
+}
+.slick-list{
+    padding: 30px 0 30px 0 !important;
+}
+.column .title{
+    color: #e56f21;
+    padding-top: 25px;
+    font-size: 16px;
+    
+}
+.phone{
+    background-image: url(http://fpts.com.vn/Public/images/NewPublic/img/icon/footer/icon-bottom2.png);
+    background-position: 0 6px;
+    background-size: 4%;
+    background-repeat: no-repeat;
+    padding-left: 6%;
+}
+.location{
+    background-image: url(http://fpts.com.vn/Public/images/NewPublic/img/icon/icon-local.png);
+    background-position: 0 6px;
+    background-size: 3%;
+    background-repeat: no-repeat;
+    padding-left: 6%;
+}
+.email{
+    background-image: url(http://fpts.com.vn/Public/images/NewPublic/img/icon/icon-mail.png);
+    background-position: 0 6px;
+    background-size: 4%;
+    background-repeat: no-repeat;
+    padding-left: 6%;
+}
